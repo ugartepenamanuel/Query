@@ -1,4 +1,4 @@
-#Query Documents
+# Query D ocument
 
 Vamos hacer ejercicios en los que se filtren documentos que cumplan más de una condición. Haciéndolo con and explicito (usando el operador $and) e implícito (si usar el operador $and)
 
