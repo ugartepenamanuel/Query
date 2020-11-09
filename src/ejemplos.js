@@ -121,3 +121,9 @@ Resultado= { "_id" : ObjectId("5f996ed95e4dea30a62a94f5"), "elemento" : "agenda"
  { "_id" : ObjectId("5f996ed95e4dea30a62a94fb"), "elemento" : "goma", "cantidad" : 60, "tamaño" : { "h" : 11, "w" : 15.26, "uom" : "cm" }, "estado" : "A" }
  { "_id" : ObjectId("5f996ed95e4dea30a62a94fc"), "elemento" : "retulador", "cantidad" : 60, "tamaño" : { "h" : 11, "w" : 15.26, "uom" : "cm" }, "estado" : "A" }
 */
+
+//.... $and implícito....//
+/*
+db.consulta.find( {elemento:"papel", estado:{$eq:"D"}})
+{ "_id" : ObjectId("5f9966f9c682cadb28dfe4c0"), "elemento" : "papel", "cantidad" : 100, "tamaño" : { "h" : 8.5, "w" : 11, "uom" : "in" }, "estado" : "D" }
+*/
